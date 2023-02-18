@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: rgb(222, 8, 8);
+}
+
+#page-container {
+    background-color: aquamarine;
+}
+
+#table-container {
+    background-color: rgb(71, 74, 73);
+}
