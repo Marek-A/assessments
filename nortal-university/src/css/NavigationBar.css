@@ -1,0 +1,38 @@
+nav {
+  font-family: 'Times new roman', serif;
+  background-color: #2f9c37;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem 1rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav-item {
+  font-size: 18px;
+  padding: 0 0.5rem;
+}
+
+nav .nav-container {
+  display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav span {
+  color: white ;
+  cursor: pointer;
+}
+
+nav span:hover {
+  color: #343a40 ;
+}
+
+nav .navbar-brand {
+  font-size: 26px;
+  vertical-align: middle;
+  margin-left: 1rem;
+}
+  
