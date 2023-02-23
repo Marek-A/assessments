@@ -4,11 +4,11 @@ It displays a table of shipments and allows the user to delete shipments or view
 The shipment data is fetched from an API using axios or a local JSON file, depending on the state of the API.
 
 ## Installation
-Clone the repository to your local machine
-Navigate to the project directory
-Run npm install to install the necessary packages
-Run npm start to start the development server
-Open http://localhost:3000 to view the app in your browser
+ - Clone the repository to your local machine
+- Navigate to the project directory
+- Run npm install to install the necessary packages
+- Run npm start to start the development server
+- Open http://localhost:3000 to view the app in your browser
 
 ## Usage
 The shipment data is displayed in a table, with the option to view more information about a shipment or delete it from the list. 
