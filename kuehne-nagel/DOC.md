@@ -7,9 +7,9 @@ The component fetches the data from a local JSON file/ from API using Axios, and
 
 ## Dependencies
 
-React: a JavaScript library for building user interfaces.
-React Bootstrap: a front-end framework built on top of Bootstrap.
-Axios for API fetch.
+- React: a JavaScript library for building user interfaces.
+- React Bootstrap: a front-end framework built on top of Bootstrap.
+- Axios for API fetch.
 
 ## State
 
