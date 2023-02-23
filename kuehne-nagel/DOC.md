@@ -19,7 +19,7 @@ The ShipmentsTable component has the following states:
 - selectedShipment: an object that represents the currently selected shipment.
 - showInfoBox: a boolean value that determines whether the shipment details panel is displayed or not.
 
-## Methods / Functions
+## Methods
 
 The ShipmentsTable component has the following methods:
 
