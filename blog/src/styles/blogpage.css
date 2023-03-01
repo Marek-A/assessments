@@ -1,0 +1,97 @@
+/* BLOG CARDS ----------- */
+.blogpage-container {
+    min-height: 100vh;
+    min-width: 500px;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.blog-container {
+    overflow-y: scroll;
+    margin: 2vw 3vw 3vw;
+    padding-top: 0.3rem;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    display: grid;
+    grid-gap: 10px;
+    align-items: stretch;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.post-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    height: 70vh;
+    padding: 1rem 2rem 3vh;
+}
+
+article {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.086);
+    background-color: #fff;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.text {
+    width: 100%;
+}
+
+h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+
+/* PAGINATION ------------------------- */
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+    text-align: center;
+}
+
+
+.pagination a {
+    color: rgb(0, 0, 0);
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #eb7515e2;
+    color: white;
+    border-radius: 30px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #848484a6;
+    border-radius: 30px;
+}
+
+#volgende {
+    color: #eb7515;
+}
+
+#volgende:hover {
+    background-color: rgba(0, 0, 0, 0);
+}

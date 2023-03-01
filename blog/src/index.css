@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+@media (max-width: 1200px) {
+
+  .homepage-container,
+  .blogpage-container {
+    flex-wrap: wrap;
+  }
+
+  .left-container,
+  .right-container {
+    width: 100% !important;
+    margin: 2vw 0;
+  }
+
+  .nav-links {
+    margin: auto;
+  }
+
+  .footer,
+  .footer-text {
+    height: auto;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .meer-button {
+    margin-bottom: 50px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .homepage-container,
+  .blogpage-container {
+    flex-wrap: wrap;
+  }
+
+  .left-container,
+  .right-container {
+    width: 100% !important;
+    margin: 2vw 0;
+  }
+
+  .nav-links {
+    margin: auto;
+  }
+
+  .footer,
+  .footer-text {
+    height: auto;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .meer-button {
+    margin-bottom: 50px;
+  }
+
+}
+
+@media (max-width: 450px) {
+
+  .homepage-container,
+  .blogpage-container {
+    flex-wrap: wrap;
+  }
+
+  .left-container,
+  .right-container {
+    width: 100% !important;
+    margin: 2vw 0;
+  }
+
+  .nav-links {
+    margin: auto;
+  }
+
+  .footer,
+  .footer-text {
+    height: auto;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .meer-button {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 365px) {
+
+  .homepage-container,
+  .blogpage-container {
+    flex-wrap: wrap;
+  }
+
+  .left-container,
+  .right-container {
+    width: 100% !important;
+    margin: 2vw 0;
+  }
+
+  .nav-links {
+    margin: auto;
+  }
+
+  .footer,
+  .footer-text {
+    height: auto;
+    width: 100%;
+    font-size: 10px;
+  }
+
+  .meer-button {
+    margin-bottom: 50px;
+  }
+
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #cdcdcd7f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #f2f2f2;
+}
+
+* {
+  zoom: 100%;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+html {
+  min-width: 500px;
+  overflow-x: hidden;
+}
+
+body {
+  min-width: 500px;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

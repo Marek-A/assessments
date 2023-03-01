@@ -1,0 +1,185 @@
+/* HOMEPAGE CONTAINERS ------------------------- */
+.homepage-container {
+    min-height: 100vh;
+    min-width: 500px;
+    width: 100vw;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-container {
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    background-color: #ffffff;
+    width: 50%;
+    margin: 2vw 1vw auto 3vw;
+}
+
+.right-container {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    width: 50%;
+    margin: 2vw 3vw auto 1vw;
+}
+
+
+
+
+/* BLOG CARDS ON HOMEPAGE RIGHT SIDE ----------- */
+.card-container {
+    padding: 2rem 2rem 1vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 3rem;
+    align-items: stretch;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.card-article {
+    height: 300px;
+    border: 1px solid #f5050500;
+    box-shadow: 2px 2px 6px 0px rgba(145, 145, 145, 0.24);
+}
+
+.card-img {
+    max-width: 100%;
+}
+
+.card-title {
+    margin-top: 0;
+    margin-bottom: 2vh;
+    font-size: 24px;
+}
+
+.card-content {
+    padding: 0 10px 20px;
+    font-size: large;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.meer-button {
+    align-items: center;
+    background-color: #E95E30;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.meer-button:hover {
+    background-color: #e52e2e;
+    transition: background-color 0.2s ease-in-out;
+}
+
+
+
+
+/* FORM ON HOMEPAGE LEFT SIDE ----------------- */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    background-color: #ffffff;
+    border-left: 20px solid #cccccc00;
+    border-right: 20px solid #cccccc00;
+}
+
+select {
+    border: 1px solid #cccccc00;
+    box-shadow: 2px 2px 6px 0px rgba(145, 145, 145, 0.24);
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+}
+
+.form-title {
+    padding: 1px;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.small-para {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+.image-input {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: left;
+    margin-right: 50%;
+
+}
+
+.add-img-icon {
+    width: 30px;
+    padding: 0.1rem;
+    margin: 0;
+    margin: 0 10px 0 10px;
+}
+
+.add-img-button {
+    background-color: #848484;
+    color: white;
+    font-size: medium;
+    padding: 0.3rem;
+    border-radius: 30px;
+}
+
+input[type="text"],
+textarea {
+    border: 1px solid #cccccc00;
+    box-shadow: 2px 2px 6px 0px rgba(145, 145, 145, 0.24);
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: #f2f2f2;
+}
+
+select,
+input::placeholder {
+    color: #888888;
+    font-style: italic;
+}
+
+.form-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.form-button {
+    align-items: center;
+    background-color: #E95E30;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-button:hover {
+    background-color: #e52e2e;
+    transition: background-color 0.2s ease-in-out;
+}
