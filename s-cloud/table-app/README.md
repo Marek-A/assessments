@@ -1,22 +1,12 @@
-## Libraries installed:
-
-# MUI for buttons and design:
-
+# Libraries Installed:
+## MUI for Buttons and Design:
 npm install @mui/material @mui/styled-engine-sc styled-components
 npm install @fontsource/roboto
-
-# Toastify for alerts:
-
+## Toastify for Alerts:
 npm install --save react-toastify
-
-# Formik for form building:
-
+## Formik for Form Building:
 npm install formik --save
-
-# YUP for form and input validation
-
+## YUP for Form and Input Validation:
 https://github.com/jquense/yup
-
-# date fns for dates and calendar:
-
+## Date Fns for Dates and Calendar:
 npm install date-fns --save
