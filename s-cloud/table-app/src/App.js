@@ -1,6 +1,6 @@
 // components
 import React from "react";
-import Tablepage from "./components/Tablepage";
+import HomePage from "./components/HomePage";
 
 // styling
 import "./index.css";
@@ -13,7 +13,7 @@ import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
 
 function App() {
-  return <Tablepage />;
+  return <HomePage />;
 }
 
 export default App;
