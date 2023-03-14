@@ -10,7 +10,7 @@ import {
 } from "react-bootstrap";
 
 const TaskTable = ({ tasks, weeksInMonth, onDeleteTask, setSelectedTask }) => {
-  // Group weeks by month
+
   const weeksByMonth = {};
   weeksInMonth.forEach((week) => {
     const month = week[0].toLocaleString("default", { month: "short" });
@@ -20,7 +20,6 @@ const TaskTable = ({ tasks, weeksInMonth, onDeleteTask, setSelectedTask }) => {
     weeksByMonth[month].push(week);
   });
 
-  // Get month names
   const monthNames = Object.keys(weeksByMonth);
 
   const [showModal, setShowModal] = useState(false);
